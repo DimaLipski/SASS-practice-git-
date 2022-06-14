@@ -1,0 +1,22 @@
+.list-comment {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    &__item {
+        width: 317px;
+        height: 180px;
+        margin-top: 32px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #86878B;
+        background: #E2E2E2;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        }
+}

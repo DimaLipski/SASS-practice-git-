@@ -1,0 +1,46 @@
+.section-reviews {
+    width: 1170px;
+    padding: 15px;
+
+
+    &__content--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    &__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 46px;
+    }
+
+    &__separator {
+    width: 142px;
+    border: 1px solid #EC7979;
+    }
+
+    &__subtitle {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #86878B;
+        margin: 32px 0 0 0 ;
+    }
+
+}
+
+.container-reviews {
+    margin: 0px 16px 0px 16px;
+}
